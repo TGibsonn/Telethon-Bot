@@ -20,6 +20,8 @@ You'll need to replace the api_id, phone and api_hash with your Telegram API inf
 # Getting an access hash for PM
 In order to get the access hash, you will need to resolve the username and retrieve the access hash from the output. I've filled it with my own which allows it to respond to my PM. These hashes are public and can be retrieved from any username. You can do this automatically once you receive a PM but that hasn't been set up. It will still listen for PMs, however.
 
+You can do this with Yolk(resolve_username) = exampleusername
+
 # Purpose
 This project is meant to demonstrate what can be done using Telethon's API wrapper and perhaps be a starting point for your project. 
 
