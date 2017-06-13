@@ -321,6 +321,10 @@ class YolkBot(YolkClient):
     def pm_listener(self, update_object):
         if type(update_object) is UpdateShortMessage:
             print(f"Received PM from {update_object.user_id}")
+            
+            # Replace user_id == with your user ID and access_hash with your access hash. You can retrieve this automatically if you wish but I haven't done this here.
+            # It's moreso a demo of admin control over the bot.
+            
             if update_object.user_id == 342379009:
                 self.send_message(update_object.user_id, "I am currently running without issue.", PM=True, access_hash=-8299841778433488371)
                 
