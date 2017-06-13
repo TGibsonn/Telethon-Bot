@@ -15,7 +15,7 @@ You can add additional methods through the methods dictionary specified in the Y
 Update handlers can be simply added within the run method via add_update_handler(method with listener logic). You can refer to the pm_listener method as an example.
 
 # Setup
-You'll need to replace the api_id, phone and api_hash with your Telegram API information as well as the phone (can be Google VOice) for your bot.
+You'll need to replace the api_id, phone and api_hash with your Telegram API information as well as the phone (can be Google Voice) for your bot. You'll also need to change the value in the command_handler method in order for it to listen to commands for your specific group. You can remove it entirely if you want it to universally listen for commands.
 
 # Purpose
 This project is meant to demonstrate what can be done using Telethon's API wrapper and perhaps be a starting point for your project. 
